@@ -28,6 +28,8 @@ body{
     height: 80px;
     padding: 0px 40px;
     /* cursor: pointer; */
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }
 
 .record > p:nth-child(3){
@@ -50,4 +52,12 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.record > p:first-child:hover{
+    background-color: #0e22d4;
+    height: 46px;
+    width: 46px;
+    font-size: 110%;
+    color: #fff;
 }
