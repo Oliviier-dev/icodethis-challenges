@@ -6,6 +6,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 .container{
@@ -15,18 +16,38 @@ body{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    background-color: #ddd;
 }
 
 .record{
     width: 40%;
-    background-color: aqua;
+    background-color: #fff;
     display: grid;
     grid-template-columns: 0.5fr 1fr 2fr;
     align-items: center;
-    height: 60px;
+    height: 80px;
     padding: 0px 40px;
+    /* cursor: pointer; */
 }
 
 .record > p:nth-child(3){
     justify-self: self-end;
+}
+
+.record > div > p:first-child{
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+
+.record > p:first-child{
+    cursor: pointer;
+    background-color: #ddd;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
