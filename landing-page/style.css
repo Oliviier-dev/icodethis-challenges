@@ -71,3 +71,34 @@ ul{
     font-size: 18px;
     text-align: center;
 }
+
+.showcase > p:first-child{
+   text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+.showcase > .wrapper{
+    margin-top: 20px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.wrapper > div{
+    
+}  
+
+.box{
+    width: 320px;
+}
+
+.box > p:nth-child(3){
+    margin-top: 10px;
+    color: #b1afaf;
+}
