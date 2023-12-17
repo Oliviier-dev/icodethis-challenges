@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    line-height: 1.4;
+  }
+  
+body {
+    font-family: "Muli", sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container{
+    width: 70%;
+    margin-top: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    min-height: 60px;
+    align-items: center;
+}
+
+nav > div:first-child{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.searchbar{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex: 1.5;
+}
+
+.searchbar > .search{
+    position: absolute;
+    cursor: pointer;
+    left: 22%;
+    font-size: 20px;
+}
+
+input{
+    width: 60%;
+    background-color: #ddd;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.close{
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
