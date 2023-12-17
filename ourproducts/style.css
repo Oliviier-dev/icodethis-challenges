@@ -40,8 +40,9 @@ nav > div:first-child, .products > div:first-child{
 .searchbar > .search{
     position: absolute;
     cursor: pointer;
-    left: 22%;
-    font-size: 20px;
+    top: 10px;
+    left: 21%;
+    /*font-size: 20px;*/
 }
 
 input{
