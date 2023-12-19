@@ -14,7 +14,7 @@ h3{
 
 .container{
     min-height: 100vh;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .wrapper{
@@ -34,9 +34,45 @@ h3{
 
 input[type="text"]{
     min-width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: 10px;
     padding: 6px 4px; 
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.buttons{
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.buttons > button{
+    padding: 10px 28px;
+    cursor: pointer;
+    border: 1px solid rgb(19, 16, 47);
+    background-color: #e6e1e1;
+    font-size: 16px; 
+}
+
+.buttons > button:hover{
+    color: #fff;
+    background-color: rgb(73, 131, 143);
+}
+
+.neighbors{
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 10px 14px;
+    cursor: pointer;
+    border: 1px solid rgb(19, 16, 47);
+    background-color: rgb(68, 60, 137);
+    font-size: 14px; 
+    color: #fff;
+    border-radius: 14px;
 }
