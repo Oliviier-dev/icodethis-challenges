@@ -69,11 +69,12 @@ input{
 }
 
 .wrapper{
+    width: 100%; 
     display: flex;
     justify-content: center;
     gap: 24px;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 
@@ -90,6 +91,7 @@ img{
     justify-content: center;
     align-items: center;
     background-color: #ddd;
+    width: 20%;
 }
 
 .product > button{
@@ -102,4 +104,13 @@ img{
     padding: 10px 0;
     color: whitesmoke;
     cursor: pointer;
+}
+
+.desc > h4{
+    margin-bottom: 10px;
+}
+
+.desc > p{
+    margin-top: 0;
+    font-weight: bold;
 }
