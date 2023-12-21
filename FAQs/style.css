@@ -1,6 +1,19 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+
+.heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading > p{
+    width: 60%;
+}
+
 .faq-heading{
     border-bottom: #777;
     padding: 20px 60px;
