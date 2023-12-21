@@ -81,7 +81,7 @@ input{
 img{
     flex: 1;
     max-width: 100%;
-    height: 140px;
+    max-height: 140px;
     background-color: #f3f0f0;
 }
 
@@ -105,6 +105,11 @@ img{
     color: whitesmoke;
     cursor: pointer;
     font-size: 18px;
+}
+
+.desc{
+    text-align: left;
+    padding-left: 20px;
 }
 
 .desc > h4{
