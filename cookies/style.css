@@ -45,3 +45,9 @@ button{
     color: white;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1228px) {
+    .btns{
+        display: flex;
+    }
+}
