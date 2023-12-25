@@ -44,3 +44,26 @@ body{
     text-align: center;
 }
 
+img{
+    width: 80px;
+}
+
+.positions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 20px;
+}
+
+.position{
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 130px;
+    cursor: pointer;
+    padding: 10px 0;
+}
