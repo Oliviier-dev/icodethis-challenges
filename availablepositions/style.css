@@ -29,7 +29,7 @@ body{
 
 .ava{
     font-size: 25px;
-    margin: 0 0 10px 0;
+    margin: 0 0 20px 0;
 }
 
 .container > p:nth-child(2){
@@ -66,4 +66,16 @@ img{
     min-width: 130px;
     cursor: pointer;
     padding: 10px 0;
+}
+
+button{
+    margin: 50px 0 0 0;
+    width: 34%;
+    border: none;
+    padding: 12px 0;
+    font-size: 16px;
+    color:  #fff;
+    background-color: rgb(44, 72, 162);
+    border-radius: 20px;
+    cursor: pointer;
 }
