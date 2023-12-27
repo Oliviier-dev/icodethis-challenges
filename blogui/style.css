@@ -15,7 +15,7 @@ body{
 .container{
     background-color: #e0f9f8;
     padding: 80px 30px;
-    width: 60%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,6 +35,8 @@ body{
     align-items: center;
     height: 160px;
     padding-right: 20px;
+    border-radius: 16px;
+    margin-bottom: 20px;
 }
 
 .header > .desc{
@@ -51,12 +53,87 @@ body{
     font-weight: 600;
 }
 
-.header > .desc > div > p:nth-child(2){
-    text-decoration: underline;
-}
-
 .header > .desc > span{
     flex: 0.1;
     cursor: pointer;
     /* pointer-events: none; */
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.left{
+    flex: 1.2;
+    background-color: #fff;
+    border-radius: 18px;
+    padding: 12px; 
+    font-size: 90%;
+    width: 90%;
+    text-align: center;
+}
+
+.left > button{
+    width: 48%;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.right{
+    flex: 2;
+    background-color: #fff;
+    border-radius: 18px;
+    padding: 12px; 
+    width: 90%;
+    font-size: 90%;
+}
+
+.left > img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.images{
+    display: flex;
+    padding: 0 24px;
+    padding-right: 28px;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+.dsc{
+    width: clamp(0px, 100%, 78%);
+    padding: 0 24px;
+}
+
+.dsc > h3{
+    margin-bottom: 0px;
+}
+
+.dsc > p{
+    margin-top: 6px;
+}
+
+.images > img{
+    height: 100px;
+    width: 60%;
+}
+
+.images > img:nth-child(2){
+    width: 80%;
+}
+
+.images > img:nth-child(1){
+    border-radius: 12px 0px 0px 12px;
+}
+
+.images > img:nth-child(3){
+    border-radius: 0px 12px 12px 0px;
 }
