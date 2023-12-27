@@ -107,6 +107,7 @@ body{
     padding-right: 28px;
     gap: 6px;
     margin-top: 10px;
+    overflow-x: hidden;
 }
 
 .dsc{
