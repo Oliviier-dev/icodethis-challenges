@@ -127,12 +127,29 @@ input[type = "radio"]{
 .profile > p {
     margin-top: 0px;
 }
-/* .impression{
+
+.impression{
     background-color: #fff;
     position: absolute;
-    width: 26%;
-    left: 54%;
-    height: 15vh;
+    /* width: 30%; */
+    border-radius: 8px;
+    margin-top: 30px;
+    left: 58%;
+    /* height: 10vh; */
     top: 30%;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
-} */
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+.impression > div{
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 28px;
+    padding: 2px 10px;
+}
