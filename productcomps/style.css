@@ -30,12 +30,80 @@ img{
     background-color: #fff;
     position: absolute;
     left: 30%;
-    height: 60vh;
+    height: 70vh;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
-    
+    padding: 20px 50px;
+    padding-right: 90px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
 }
 
-.profile{
+.wrapper > h4{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.wrapper > p{
+    margin-top: 8px;
+    font-size: 80%;
+}
+
+.wrapper > .legend{
+    border: 1px solid #ddd;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+
+.legend > p{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.elt{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+input[type = "radio"]{
+    transform: scale(1.5); 
+    margin-right: 10px;
+}
+
+.small{
+    font-size: 14px;
+    color: #a3a0a0;
+}
+
+.license{
+    font-size: 10px;
+}
+
+.button1{
+    margin-bottom: 20px;
+} 
+
+.btn{
+    border: none;
+    padding: 8px 0;
+    font-size: 16px;
+    color:  #fff;
+    background-color: rgb(243, 138, 99);
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button2{
+    border: 1px solid #ddd;
+    color: rgb(243, 138, 99);
+    background-color: #fff;   
+}
+
+
+/* .profile{
     background-color: #fff;
     position: absolute;
     width: 26%;
@@ -53,4 +121,4 @@ img{
     height: 15vh;
     top: 30%;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
-}
+} */
