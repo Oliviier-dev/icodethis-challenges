@@ -126,3 +126,22 @@ span u {
     display: flex;
     gap: 20px;
 }
+
+button{
+    width: 70%;
+    margin: auto;
+    margin: 30px 0 0 0;
+    background-color: rgb(154, 26, 128);
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
