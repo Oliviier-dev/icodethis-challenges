@@ -63,3 +63,20 @@ img{
     margin-bottom: 26px;
 }
 
+.username{
+    font-size: 16px;
+}
+
+input[type="text"]{
+    width: 80%;
+    margin: 6px 0;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+input[type="text"]:focus{
+    outline: none;
+}
+
