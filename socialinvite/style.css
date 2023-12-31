@@ -39,9 +39,27 @@ img{
     flex-direction: column;
     align-items: center;
     padding: 30px;
+    border-radius: 12px;
 }
 
 .invite{
     color: #626161;
     margin-bottom: 0px;
 }
+
+.channel{
+    margin: 14px;
+}
+
+.users{
+    background-color: #e8e4e4;
+    padding: 8px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    gap: 10px;
+    margin-bottom: 26px;
+}
+
