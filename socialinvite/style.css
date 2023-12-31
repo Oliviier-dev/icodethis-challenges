@@ -80,3 +80,49 @@ input[type="text"]:focus{
     outline: none;
 }
 
+input[type="checkbox"] {
+    display: none;
+}
+  
+input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 30px;
+    top: 8px;
+}
+  
+input[type="checkbox"] + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #7a7a7a;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label:before {
+    content: "\2713";
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #7a7a7a;
+    background-color: #fff;
+}
+
+span u {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(107, 47, 117);
+}
+
+.terms{
+    margin-top: 10px;
+}
+
+.checkbox{
+    top: 20px;
+    display: flex;
+    gap: 20px;
+}
