@@ -16,7 +16,7 @@ body{
 
 .container{
     background-color: #afb7b6;
-    height: 100vh;
+    min-height: 100vh;
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -169,3 +169,28 @@ body{
     color: rgb(33, 35, 173);
     text-align: right;
 }
+
+@media screen and (max-width: 1289px) {
+    body{
+        overflow: hidden;
+    }
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+ @media screen and (max-width: 985px) {
+     .wrapper{
+       flex-direction: column;
+     }
+
+     .wrapper{
+       margin: 20px 0;
+     }
+
+     .storage{
+        width: 80%;
+     }
+
+ }
