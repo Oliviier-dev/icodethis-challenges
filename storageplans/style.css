@@ -1,5 +1,7 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,400&display=swap');
+
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -98,27 +100,45 @@ body{
     cursor: pointer;
 }
 
+.plans{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .plan1{
     color: #fff;
     background-color: #0e0810;
     height: 110px;
     width: 320px;
     padding: 20px 30px;
-    border-radius: 10px;
+    border-radius: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.line1{
+    background-color: #a8b01c;
+}
+
+.line2{
+    background-color: #1c77b0;
+}
+
+.line3{
+    background-color: #41b01c;
 }
 
 .line{
     height: 6px;
     border-radius: 4px;
     width: 26px;
-    background-color: white;
+    /* background-color: white; */
     margin-top: 10px;
 }
 
-.plan1 > h4{
+.plan1 > h4, .left > h4{
     margin-top: 10px;
     margin-bottom: 8px;
 }
@@ -137,9 +157,15 @@ body{
     height: 140px;
 }
 
-.plan2{
+.plan2, .plan3{
+    border-radius: 16px;
     display: flex;
     align-items: center;
-    gap: 20px;
-    padding: 10px;
+    gap: 40px;
+    padding-left: 18px;
+}
+
+.right{
+    color: rgb(33, 35, 173);
+    text-align: right;
 }
