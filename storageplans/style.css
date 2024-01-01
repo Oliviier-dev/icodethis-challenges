@@ -1,0 +1,145 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: rgb(43, 14, 75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    line-height: 1.2;
+}
+
+.container{
+    background-color: #afb7b6;
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10%;
+    gap: 70px;
+    align-items: center;
+}
+
+.storage{
+    background-color: #f1f1f1;
+    width: 300px;
+    border-radius: 14px;
+    padding: 30px 40px 60px 40px;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.material-symbols-outlined{
+    background-color: #fff;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    background: conic-gradient(
+    rgba(66, 79, 193, 255) 0 10%, rgba(159, 204, 225, 255) 0 100%);
+    outline: 0.125rem solid rgba(255, 255, 255, 1);
+    outline-offset: 0.5rem;
+}
+
+.up > h4{
+    margin-bottom: 0px;
+}
+
+.up > p{
+    margin-top: 2px;
+}
+
+.bottom{
+    color: rgb(33, 35, 173);
+}
+
+.bottom > h4{
+    margin-bottom: 0px;
+}
+
+.bottom > p{
+    margin-top: 2px;
+}
+
+.btn{
+    background-color: #211324;
+    color: #fff;
+    border: none;
+    padding: 8px 10px; 
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.plan1{
+    color: #fff;
+    background-color: #0e0810;
+    height: 110px;
+    width: 320px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.line{
+    height: 6px;
+    border-radius: 4px;
+    width: 26px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.plan1 > h4{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.plan1 > p{
+    margin-top: 0px;
+}
+
+.plan2{
+    background-color: #ddd;
+    height: 140px;
+}
+
+.plan3{
+    background-color: #ddd;
+    height: 140px;
+}
+
+.plan2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
