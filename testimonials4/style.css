@@ -119,3 +119,15 @@ img{
     margin-bottom: 10px;
     color: #6e6e6e;
 }
+
+@media screen and (max-width: 1273px) {
+    .container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .wrapper {
+        width: 70%;
+    }
+}
