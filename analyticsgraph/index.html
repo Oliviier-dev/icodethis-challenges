@@ -5,8 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Analytics Graph</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     
+  <div class="container">
+      <div class="wrapper">
+        <h3>VISITORS PER DAY</h3>
+          <div class="analytics">
+              <div class="chart-continer">
+                  <canvas id="myChart"></canvas>
+              </div>
+              <div class="info">
+
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const data = {
+        // labels: ['Morbi ligula', 'Scelerisque', 'Praesent maecenas', 'Morbi ligula', 'Morbi ligula'],
+        datasets: [{
+          label: 'Visitors per day',
+          data: [420, 290, 230, 40, 30],
+          backgroundColor: [
+            '#B968C7',
+            '#EC407A',
+            '#EE6C00',
+            '#FED73E',
+            '#68F1AD'
+          ],
+          hoverOffset: 4
+        }]
+      };
+
+      const config = {
+            type: 'doughnut',
+            data: data,
+            options: {
+              plugins: {
+                legend: {
+                  display: true
+                },
+              },
+              cutout: '70%',
+              plugins: {
+                tooltip: true,
+              }
+            }
+          };
+
+      const ctx = document.getElementById('myChart').getContext('2d');
+      new Chart(ctx, config);
+    });
+  </script>
+
 </body>
 </html>
