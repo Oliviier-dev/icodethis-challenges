@@ -11,9 +11,11 @@ body{
     box-sizing: border-box;
     line-height: 1.2;
     color: #fff;
+    position: relative;
 }
 .container{
-    width: 20%;
+    position: absolute;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 1); 
 }
 
 .input > input[type="text"]{
@@ -21,7 +23,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 286px;
     text-align: right;
     cursor: default;
     outline: none;
@@ -37,4 +39,45 @@ body{
 
 .input > input[type="text"] :focus{
     outline: none;
+}
+
+.buttons{
+    /* padding: 0px 12px; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+button{
+    width: 77.5px;
+    height: 60px;
+    border: 0.5px solid #757474;
+    background-color: rgb(9, 32, 53);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.eq{
+    width: auto;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: #D61B61;
+    border: none;
+}
+
+.left{
+    border-left: none;
+}
+
+.right{
+    border-right: none;
+}
+
+.bottom{
+    border-bottom: none;
+}
+
+.top{
+    border-top: none;
 }
