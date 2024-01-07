@@ -89,4 +89,18 @@ ul{
 
 .dates{
     grid-area: dates;
+    background-color: #C3E1DB;
+    padding: 0px 0px 0px 16px;
+    margin-top: 40px;
+    border-radius: 6px;
+    padding-top: 10px;
+}
+
+.dates > p{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.dates > h4{
+    margin-top: 8px;
 }
