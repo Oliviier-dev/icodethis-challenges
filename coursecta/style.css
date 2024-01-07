@@ -68,8 +68,23 @@ ul{
     padding: 20px;
 }
 
-.enrollment{
-    grid-area: enrollment;
+.enrollement{
+    grid-area: enrollement;
+}
+
+.enrollement > h3{
+    margin-bottom: 16px;
+}
+
+.enrollement > ul >li{
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.enrollement > ul >li:hover{
+    background-color: #C3E1DB;
 }
 
 .dates{
