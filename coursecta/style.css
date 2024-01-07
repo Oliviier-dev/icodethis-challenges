@@ -14,6 +14,36 @@ body{
 
 .container{
     background-color: #D6EBE8;
-    border-radius: 20px;
-    width: 68%;
+    border-radius: 12px;
+    margin: 50px 0;
+    padding: 50px 50px;
+    width: 56%;
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "join stats whyus"
+    "enrollement dates whyus";
+}
+
+.join{
+    grid-area: join;
+}
+
+.stats{
+    grid-area: stats;
+}
+
+.whyus{
+    grid-area: whyus;
+    background-color: #DDEBE7;
+    border: 1px solid #fff;
+    padding: 20px;
+}
+
+.enrollment{
+    grid-area: enrollment;
+}
+
+.dates{
+    grid-area: dates;
 }
