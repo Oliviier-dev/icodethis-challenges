@@ -128,3 +128,9 @@ ul{
 .dates > h4{
     margin-top: 8px;
 }
+
+@media (max-width: 1000px) {
+    .container{
+        width: 90%;
+    }
+  }
