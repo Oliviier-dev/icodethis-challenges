@@ -66,6 +66,30 @@ ul{
     background-color: #DDEBE7;
     border: 1px solid #fff;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.whyus > ul > li{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin: 6px 0px;
+}
+
+.whyus > button{
+    position: absolute;
+    justify-self: end;
+    top: 70%;
+    background-color: #FFA593;
+    color: #000;
+    border: none;
+    font-size: 14px;
+    padding: 12px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 70%;
 }
 
 .enrollement{
