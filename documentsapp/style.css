@@ -96,7 +96,7 @@ body{
 
 .input > span{
     position: absolute;
-    left: 34px;
+    left: 26px;
     cursor: pointer;
     font-size: 1.6rem;
 }
@@ -115,6 +115,22 @@ body{
     border-radius: 50%;
     padding: 10px;
     cursor: pointer;
+    background-color: #F5F8FE;
+}
+
+.im1{
+    background-color: #F5F8FE;
+    border: 1px solid #7d9ee0;
+}
+
+.im2{
+    background-color: #b9eeb9;
+    border: 1px solid #5eae5e;
+}
+
+.im3{
+    background-color: #696763;
+    border: 1px solid #0f0c04;
 }
 
 .item{
