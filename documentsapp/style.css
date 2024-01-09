@@ -78,3 +78,23 @@ body{
     color: #fff;
     background-color: #3983d1;
 }
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.input > input{
+    width: 70%;
+    padding: 14px 36px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+} 
+
+.input > span{
+    position: absolute;
+    left: 34px;
+    cursor: pointer;
+}
