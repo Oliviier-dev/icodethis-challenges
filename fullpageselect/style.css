@@ -62,3 +62,18 @@ body{
     background-color: #7E99FD;
     color: #fff;
 }
+
+.desc{
+    position: absolute;
+    bottom: 76vh;
+    left: 20%;
+}
+
+.desc > p{
+    width: clamp(0%, 100%, 270px);
+    margin: 0px;
+}
+
+.desc > h2{
+    margin-bottom: 10px;
+}
