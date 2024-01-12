@@ -87,7 +87,7 @@ body{
     border-style: solid;
     color: #000;
     background-color: #fff;
-    border-color: linear-gradient(to right, #FF7B56, #FC943C);
+    border-color:#FF7B56;
 }
 
 .opt > div:first-child{
@@ -176,4 +176,21 @@ body{
     height: 200px;
     top: 60vh;
     left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nature > button{
+    padding: 10px 26px;
+    border-radius: 10px;
+    color: #000;
+    border: 1px solid #FF7B56;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+button{
+    cursor: pointer;
 }
