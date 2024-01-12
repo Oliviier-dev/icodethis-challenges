@@ -29,6 +29,7 @@ body{
     align-items: center;
     background-color: #fff;
     transition: ease 0.5s all;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2); 
 }
 
 .box:hover{
