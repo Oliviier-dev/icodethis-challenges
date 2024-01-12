@@ -50,14 +50,60 @@ body{
 .select{
     position: absolute;
     background-color: #fff;
-    width: 260px;
-    height: 200px;
-    left: 20%;
-    top: 20vh;
+    width: 300px;
+    height: 220px;
+    left: 16%;
+    top: 16vh;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8);
+    padding: 20px 0px 20px 20px;
+    display: flex;
+    flex-direction: column;
 }
 
-.select > div{
+.select > h3{
+    margin-bottom: 14px;
+}
+
+.first{
+    background-color: #ddd;
+    margin-right: 24px;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+}
+
+.sec{
+    margin-right: 24px;
+    padding: 8px 12px;
+}
+
+.opt > div:first-child{
+    font-size: 16px;
+    flex: 3;
+}
+
+.opt > div:first-child > h4{
+    margin: 0px;
+}
+
+.opt > div:first-child > p, .opt > div:nth-child(2) > p{
+    margin: 6px 0px 12px 0px;
+}
+
+.opt > div:nth-child(2){
+    flex: 1;
+}
+
+.opt{
     display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.opt > div > button{
+    padding: 6px 16px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #FF7B56, #FC943C);
 }
 
 .main{
