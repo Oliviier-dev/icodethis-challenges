@@ -59,7 +59,7 @@ body{
 }
 
 .box > button:hover{
-    background-color: #7E99FD;
+    background-color: #5a7af0;
     color: #fff;
 }
 
@@ -88,4 +88,41 @@ body{
     right: 19%;
     color: #E38586;
     cursor: pointer;
+    transition: ease 0.5s all;
+}
+
+.btn:hover{
+    background-color: #E38586;
+    color: #fff;
+    border: none;
+}
+
+.contbtn{
+    position: absolute;
+    bottom: 20vh;
+    padding: 6px 10px;
+    right: 19%;
+    border: 1px solid #D0D0D1;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    gap: 10px;
+    cursor: pointer;
+    align-items: center;
+    color: #fff;
+    transition: ease 0.5s all;
+}
+
+.contbtn:hover{
+    background-color: #5a7af0;
+    color: #fff;
+    border-color: #5a7af0;
+}
+
+.line{
+    position: absolute;
+    background-color: #D0D0D1;
+    height: 36px;
+    right: 37px;
+    width: 2px;
 }
