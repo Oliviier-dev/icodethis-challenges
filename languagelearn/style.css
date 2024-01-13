@@ -220,3 +220,46 @@ button{
 .stats > span{
     color: green;
 }
+
+@media screen and (max-width: 995px) {
+
+    body{
+        min-height: 100vh;
+        margin: 20px 0px;
+        background-color: #161C3F;;
+    }
+
+    .left, .middle, .right{
+        display: none;
+    }
+    .container{
+        min-height: 100vh;
+        position: static;
+        padding: 20px 0px;
+    }
+    .select{
+        position: static;
+        margin-top: 10px;
+    }
+    .main{
+        position: static;
+        height: 70vh;
+        width: 380px;
+        margin: 30px 0;
+    }
+
+    .main>.bottom{
+        position: static;
+        border-radius: 10px;
+    }
+
+    .main > .bottom > button{
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .nature{
+        position: static;
+        margin: 20px 0px;
+    }
+
+}
