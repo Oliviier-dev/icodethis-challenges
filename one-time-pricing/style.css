@@ -109,6 +109,7 @@ body{
     justify-content: space-between;
     gap: 10px;
     padding: 0px 20px;
+    margin-top: 10px;
 }
 
 .btncont > div:first-child{
@@ -136,4 +137,14 @@ body{
     border-radius: 10px;
     background-color: #fff;
     cursor: pointer;
+}
+
+.store{
+    width: 100%;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #B0AFFC;
+    cursor: pointer;   
 }
