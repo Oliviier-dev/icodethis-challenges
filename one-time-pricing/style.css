@@ -58,6 +58,7 @@ body{
     border-radius: 10px;
     font-size: 16px;
     background: linear-gradient(to right, #70EC96, #76F5EC);
+    cursor: pointer;
 }
 
 .shipping{
@@ -86,4 +87,53 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #E9EAFE;
+}
+
+.comb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F5FF;
+    margin: 20px 0px;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.comb > p{
+    margin: 4px 0px;
+    font-weight: 550;
+}
+
+.btncont{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0px 20px;
+}
+
+.btncont > div:first-child{
+    position: relative;
+    width: 50%;
+}
+
+.btncont > div > span{
+    position: absolute;
+    left: 3px;
+    top: 5px;
+}
+
+.btncont > div > input{
+    width: 100%;
+    padding: 10px 0px 10px 24px;
+    background-color: #F2F5FF;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+.btn{
+    padding: 10px 14px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
 }
