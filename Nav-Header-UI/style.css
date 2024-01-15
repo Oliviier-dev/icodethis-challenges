@@ -16,11 +16,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     width: 86%;
 }
 
-.header{
+.header, .header2{
     position: relative;
     width: 100%;
     background-color: #ddd;
@@ -35,6 +35,7 @@ body{
 .logo{
     padding-left: 20px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .list{
@@ -50,6 +51,7 @@ body{
 .list > ul{
     display: flex;
     gap: 20px;
+    cursor: pointer;
 }
 
 .daysleft{
@@ -65,5 +67,53 @@ body{
     z-index: 1;
     padding: 10px;
     padding-bottom: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.wrapper{
+    background: linear-gradient(to right, #A955F6, #FB7186);
+    width: 100%;
+}
+
+.content{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.title{
+    font-weight: 200;
+    color: #f5f4f4;
+}
+
+.contact{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="email"]{
+    border: none;
+    background-color: rgb(0 0 0 / 0.15);
+    padding: 8px 12px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+
+
+input[type="email"]::placeholder {
     color: #fff;
 }
