@@ -164,3 +164,48 @@ body{
 .view:hover{
     color: #d2d2d6;
 }
+
+.bottom{
+    /* width: 100%; */
+    justify-self: center;
+    position: absolute;
+    bottom: 0px;
+    margin: 0px 35px 15px 15px;
+}
+
+.bottom > h4{
+    color: #8D8D99;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.bottom > div{
+    background-color: #393C52;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px 14px;
+    font-size: 16px;
+    border-radius: 16px;
+}
+
+.bottom > div > span{
+    color: #FCFFFF;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.bottom > div > p{
+    color: #C6CBD6;
+    margin-top: 8px;
+}
+
+.bottom > div > button{
+    padding: 8px 12px;
+    background-color: #fff;
+    border: none;
+    border-radius: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
