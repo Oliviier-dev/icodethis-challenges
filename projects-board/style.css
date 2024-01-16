@@ -209,3 +209,75 @@ body{
     font-weight: 600;
     cursor: pointer;
 }
+
+.add-projs{
+    /* background-color: #ddd; */
+    width: 100%;
+    padding: 30px 0px 0px 30px;
+}
+
+.add-projs > h4{
+    font-size: 18px;
+}
+
+.projs{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    row-gap: 14px; 
+}
+
+.proj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.proj > div{
+    width: 100px;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4); 
+    border-radius: 24px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.marketing > div{
+    background-color: #57ADFC;
+}
+
+.feature > div{
+    background-color: #FF8263;
+}
+
+.boardme > div{
+    background-color: #FEB958;
+}
+
+.uidd > div{
+    background-color: #AF5AFF;
+}
+
+.add > div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #8D8D99;
+    color: #939393;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 24px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
