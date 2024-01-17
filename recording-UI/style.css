@@ -25,6 +25,7 @@ body{
 .header{
     align-self: flex-end;
     display: flex;
+    color: #CDCDCD;
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -39,4 +40,27 @@ body{
 .header > span:first-child{
     position: relative;
     top: -6px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main > div{
+    display: flex;
+}
+
+.main > span:first-child{
+    font-size: 24px;
+    color: #CDCDCD;
+}
+
+.main > .time{
+    font-size: 20px;
+    color: #000;
+    font-size: 36px;
+    margin: 6px 0px;
 }
