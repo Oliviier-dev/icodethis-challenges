@@ -61,6 +61,31 @@ body{
 .main > .time{
     font-size: 20px;
     color: #000;
-    font-size: 36px;
+    font-size: 36jpx;
     margin: 6px 0px;
+}
+
+.main > div{
+    display: flex;
+    gap: 20px;
+}
+
+.main > div > div > p > span:first-child{
+    cursor: pointer;
+    font-size: 26px;
+}
+
+.pause{
+    color: #04BEA8;
+}
+
+.pause > p, .stop > p{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-size: 22px;
+}
+
+.stop{
+    color: #D60000;
 }
