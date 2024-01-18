@@ -35,3 +35,45 @@ body{
 .wrapper > button{
     width: 100px;
 }
+
+.shadow-header{
+    background-color: #c1bdbd;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.4); 
+    margin: 16px 0px;
+    font-weight: 550;
+    padding: 2px 0px; 
+}
+
+.wrapper > span:nth-child(3){
+    margin-bottom: 16px;
+}
+
+.wrapper > span:nth-child(4){
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper > span:nth-child(5){
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 16px;
+}
+
+.wrapper > span:nth-child(7){
+    text-decoration: line-through;
+    margin-bottom: 16px;
+}
+
+.wrapper > h1{
+    margin-bottom: 0px;
+}
+
+.wrapper > h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.wrapper > h3{
+    margin-top: 0px;
+}
