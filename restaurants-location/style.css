@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     background-color: #E7F3ED;
     display: flex;
@@ -26,4 +27,20 @@ img{
     background-color: #DD6E51;
     height: 80px;
     border-radius: 18px 18px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.hamburger > span,.search > span{
+    color: #FCB8A8;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+.nav > span:nth-child(2){
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 1px;
 }
