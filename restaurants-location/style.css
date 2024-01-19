@@ -21,6 +21,7 @@ img{
     margin: 30px 0px;
     background-color: #F48266;
     border-radius: 18px;
+    overflow-y: hidden;
 }
 
 .nav{
