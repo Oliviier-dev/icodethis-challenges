@@ -52,12 +52,18 @@ img{
 }
 
 .rest{
-    height: 100px;
+    cursor: pointer;
+    height: 98px;
     border-bottom: 2px solid #DD6E51;
     display: flex;
     align-items: center;
     padding: 0px 8px 0px 20px;
     color: #fff;
+    transition: all 0.5s ease;
+}
+
+.rest:hover{
+    background-color: #cf694f;
 }
 
 .rest > img{
@@ -96,4 +102,22 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.directions > span:first-child{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.directions > span:nth-child(2){
+    font-weight: bold;
+}
+
+.stars{
+    display: flex;
+
+}
+
+.stars > span{
+    font-size: 14px;
 }
