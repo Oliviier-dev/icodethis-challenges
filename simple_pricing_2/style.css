@@ -81,3 +81,30 @@ ul{
     color: #88AC6E;
     justify-content: center;
 }
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.btn > button{
+    width: 76%;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: #fff;
+    font-weight: 550;
+}
+
+.free > .btn > button{
+    border: 1px solid #9B8DE0;
+    color: #9B8DE0;
+}
+
+.premium > .btn > button{
+    border: 1px solid #E17CBC;
+    color: #fff;
+    background-color: #E17CBC;
+}
