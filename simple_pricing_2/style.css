@@ -11,6 +11,10 @@ ul > li{
     list-style: none;
 }
 
+ul{
+    padding-inline-start: 30px;
+}
+
 .wrapper{
     position: relative;
     display: flex;
@@ -20,5 +24,33 @@ ul > li{
 .wrapper > div{
     background-color: #fff;
     width: 240px;
-    height: 400px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-left: 30px;
+}
+
+.header > span:first-child{
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.free > .header > span:first-child{
+    color: #9B8DE0;
+    text-transform: capitalize;
+}
+
+.free > .header > span:nth-child(2){
+    text-transform: capitalize;
+}
+
+.premium > .header > span:first-child{
+    color: #E17CBC;
 }
