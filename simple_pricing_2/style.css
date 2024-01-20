@@ -1,0 +1,24 @@
+body{
+    background: linear-gradient(to right, #F7F0FB, #E4E3F3);
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul > li{
+    list-style: none;
+}
+
+.wrapper{
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+
+.wrapper > div{
+    background-color: #fff;
+    width: 240px;
+    height: 400px;
+}
