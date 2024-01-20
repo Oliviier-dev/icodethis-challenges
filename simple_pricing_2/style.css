@@ -23,11 +23,13 @@ ul{
 
 .wrapper > div{
     background-color: #fff;
-    width: 240px;
-    height: 360px;
+    width: 270px;
+    height: 320px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    gap: 40px;
+    padding: 40px 0px;
+    /* justify-content: space-around; */
 }
 
 .header{
@@ -53,4 +55,29 @@ ul{
 
 .premium > .header > span:first-child{
     color: #E17CBC;
+}
+
+.list > ul > li{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.list > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.tick{
+    /* position: absolute; */
+    background-color: #F4FBED;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    color: #88AC6E;
+    justify-content: center;
 }
