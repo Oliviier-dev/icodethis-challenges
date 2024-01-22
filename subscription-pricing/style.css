@@ -46,7 +46,7 @@ body{
 
 .packages > div{
     display: flex;
-    border: 2px solid #ddd;
+    border: 2px solid #E9ECF1;
     margin: 10px 0px;
     padding: 20px;
     gap: 16px; 
@@ -82,4 +82,38 @@ body{
     padding: 4px 6px;
     width: 88px;
     color: #fff;
+}
+
+.buttons{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons > div > button{
+    width: 240px;
+    padding: 14px 0px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.buttons > div:first-child > button{
+    background-color: #0C1033;
+    color: #E9ECF1;
+    font-size: 16px;
+    border: none;
+}
+
+.buttons > div:nth-child(2) > button{
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    border: 2px solid #E9ECF1;
+}
+
+.footer > a{
+    color: #454FC9;
+    font-size: 17px;
 }
