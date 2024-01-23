@@ -70,6 +70,7 @@ body{
     color: #fff;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8);
     cursor: pointer;
+    transition: all ease 0.5s;
 }
 
 .container > div > div{
@@ -145,4 +146,14 @@ body{
     color: #EDEFF1;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8);
     cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.black.clicked {
+    background-color: #64DC00;
+}
+
+.flight > span:first-child.clicked, .prep > span:first-child.clicked, .check > span:first-child.clicked{
+    background-color: #EDEFF1;
+    color: #EDEFF1;
 }
