@@ -18,7 +18,7 @@
         <div class="container">
             <div class="flight">
                 <!-- <input type="radio" name="" id="" checked> -->
-                <span class="material-symbols-outlined tick">done</span>
+                <span class="material-symbols-outlined tick" onclick="changeColor(this)">done</span>
                 <div>
                     <h3>Flight booked</h3>
                     <div>
@@ -30,7 +30,7 @@
             </div>
             <div class="prep">
                 <!-- <input type="radio" name="" id="" checked> -->
-                <span class="material-symbols-outlined tick">done</span>
+                <span class="material-symbols-outlined tick" onclick="changeColor(this)">done</span>
                 <div>
                     <h3>Preparation</h3>
                     <span class="btn">priority</span>
@@ -39,7 +39,7 @@
             </div>
             <div class="check">
                 <!-- <input type="radio" name="" id="" checked> -->
-                <span class="material-symbols-outlined tick">done</span>
+                <span class="material-symbols-outlined tick" onclick="changeColor(this)">done</span>
                 <div>
                     <h3>Check-in</h3>
                     <span>All passengers checked-in</span>
@@ -50,7 +50,7 @@
             </div>
             <div class="packing">
                 <!-- <input type="radio" name="" id=""> -->
-                <span class="material-symbols-outlined tick black">done</span>
+                <span class="material-symbols-outlined black" onclick="changeColor(this)">done</span>
                 <div>
                     <h3>Packing</h3>
                     <span>You may upgrade your baggage up to three hours before departure</span>
@@ -59,6 +59,12 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function changeColor(element) {
+          element.classList.toggle("clicked");
+        }
+    </script>
 
 </body>
 </html>
