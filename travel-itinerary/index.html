@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="style.css">
     <title>travel Itinerary/</title>
 </head>
@@ -10,13 +11,14 @@
     
     <div class="wrapper">
         <div class="header">
-            <span><</span>
-            <span>Bergen - Budapest</span>
-            <span>...</span>
+            <span class="material-symbols-outlined">arrow_back_ios</span>
+            <h4>Bergen - Budapest</h4>
+            <span class="material-symbols-outlined">more_horiz</span>
         </div>
         <div class="container">
             <div class="flight">
-                <input type="radio" name="" id="" checked>
+                <!-- <input type="radio" name="" id="" checked> -->
+                <span class="material-symbols-outlined tick">done</span>
                 <div>
                     <h3>Flight booked</h3>
                     <div>
@@ -27,27 +29,32 @@
                 </div>
             </div>
             <div class="prep">
-                <input type="radio" name="" id="" checked>
+                <!-- <input type="radio" name="" id="" checked> -->
+                <span class="material-symbols-outlined tick">done</span>
                 <div>
                     <h3>Preparation</h3>
-                    <span>priority</span>
+                    <span class="btn">priority</span>
                     <button>ADD SERVICES</button>
                 </div>
             </div>
             <div class="check">
-                <input type="radio" name="" id="" checked>
+                <!-- <input type="radio" name="" id="" checked> -->
+                <span class="material-symbols-outlined tick">done</span>
                 <div>
                     <h3>Check-in</h3>
                     <span>All passengers checked-in</span>
-                    <button>AG</button><button>||</button>
+                    <div class="btns">
+                        <span>AG</span><span>||</span>
+                    </div>
                 </div>
             </div>
             <div class="packing">
-                <input type="radio" name="" id="">
+                <!-- <input type="radio" name="" id=""> -->
+                <span class="material-symbols-outlined tick black">done</span>
                 <div>
                     <h3>Packing</h3>
                     <span>You may upgrade your baggage up to three hours before departure</span>
-                    <button>ADD BAGGAGE</button>
+                    <div>ADD BAGGAGE</div>
                 </div>
             </div>
         </div>
