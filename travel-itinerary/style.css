@@ -43,3 +43,29 @@ body{
 .header > h4{
     font-size: 16px;
 }
+
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.container > div{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.container > div > div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container > div > div > h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
