@@ -25,7 +25,7 @@ ul{
 }
 
 .nav > ul{
-    margin-top: 14px;
+    margin: 14px 0px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -59,6 +59,24 @@ ul{
 }
 
 .content{
-    background-color: #ddd;
+    background-color: #fff;
     flex: 10;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.header > img:first-child{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.header > img:nth-child(2){
+    width: 35px;
+    height: 20px;
+    cursor: pointer;
 }
