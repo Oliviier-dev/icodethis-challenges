@@ -127,3 +127,40 @@ ul{
     background-position: right;
     background-repeat: no-repeat;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.footer > .left{
+    padding-left: 60px;
+}
+
+.footer > .left > p{
+    width: clamp(0px, 100%, 360px);
+}
+
+.footer > .right{
+    margin-top: 30px;
+}
+
+.footer > .right > div{
+    margin-right: 40px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    gap: 20px;
+    display: flex;
+    background-color: #ddd;
+}
+
+.footer > .right > span{
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer > .right >  div > div >p{
+    font-weight: bold;
+}
