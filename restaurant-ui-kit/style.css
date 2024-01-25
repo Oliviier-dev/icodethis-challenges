@@ -84,8 +84,6 @@ body{
 }
 
 .reserve{
-    position: absolute;
-    top: 100px;
     grid-area: reserve;
     background-color: #1F2125;
     box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.4); 
@@ -184,4 +182,18 @@ body{
     background-color: #FFB304;
     padding: 6px 10px;
     border-radius: 20px;
+}
+
+button{
+    width: 240px;
+    padding: 14px 20px;
+    border: none;
+    background-color: #FFB304;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 18px; 
+    cursor: pointer;
+    position: relative;
+    bottom: 190px;
+    left: 140px;
 }
