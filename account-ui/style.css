@@ -29,7 +29,7 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: #fff;
-    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .profile > img{
@@ -53,12 +53,50 @@ body{
 
 .desc{
     display: flex;
-    gap: 10px;
+    gap: 40px;
 }
 
 .permission{
-    grid-area: permission;
     background-color: #fff;
+    width: 300px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.1);
+}
+
+.permission > div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.permission > div > span:first-child{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.permission > div > span:nth-child(2){
+    border: 2px solid #ddd;
+    padding: 10px 6px;
+    background-color: #F6FCFE;
+}
+
+.permission > div > p:nth-child(3){
+    margin: 12px 0px;
+}
+
+.permission > div > button{
+    background-color: #2C2455;
+    width: 80%;
+    color:  #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 14px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .icons{
