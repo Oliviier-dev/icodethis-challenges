@@ -53,7 +53,7 @@ body{
 
 .desc{
     display: flex;
-    gap: 40px;
+    gap: 100px;
 }
 
 .permission{
@@ -100,6 +100,27 @@ body{
 }
 
 .icons{
-    grid-area: icons;
+    position: relative;
+    bottom: 50px;
+    padding: 20px 0px;
+    background-color: #F6FCFE;
+    width: 80px;
+    border-radius: 36px;
+    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons > span{
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;  
 }
