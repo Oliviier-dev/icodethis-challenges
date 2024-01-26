@@ -19,8 +19,36 @@ body{
 }
 
 .profile{
-    grid-area: profile;
+    position: relative;
+    width: 260px;
+    height: 100px; 
+    border-radius: 14px;
+    padding: 0px 0px 20px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
     background-color: #fff;
+    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.profile > img{
+    position: absolute;
+    bottom: 70px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile > span:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 6px;
+}
+
+.profile > span:nth-child(3){
+    font-size: 14px;
 }
 
 .desc{
