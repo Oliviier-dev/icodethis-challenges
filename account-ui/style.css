@@ -1,0 +1,39 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #F6F6F6;
+    box-sizing: border-box;
+    line-height: 1.2;
+    color: #000;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.profile{
+    grid-area: profile;
+    background-color: #fff;
+}
+
+.desc{
+    display: flex;
+    gap: 10px;
+}
+
+.permission{
+    grid-area: permission;
+    background-color: #fff;
+}
+
+.icons{
+    grid-area: icons;
+    background-color: #fff;
+}
