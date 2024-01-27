@@ -25,7 +25,7 @@ img{
 }
 
 .header{
-    padding: 20px 20px;
+    padding: 20px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,8 +37,19 @@ img{
     margin: 0px;
 }
 
+.header > span{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 2px #fff solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .item{
-    padding: 10px 20px;
+    padding: 10px 40px;
     display: flex;
     gap: 20px;
     align-items: center;
