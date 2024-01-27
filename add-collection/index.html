@@ -14,7 +14,7 @@
             <span class="material-symbols-outlined">close</span>
         </div>
         <div class="wrapper">
-            <div class="item">
+            <div class="item" onclick="toggleCheck(this)">
                 <img src="images/75d9c71d-ccbb-4b6a-aa25-9a1a4679f65a.png" alt="">
                 <div class="det">
                     <span>Dashboards</span>
@@ -25,10 +25,10 @@
                     </div>
                 </div>
                 <div class="rad">
-                    <span class="material-symbols-outlined">check_circle</span>
+                    <span class="material-symbols-outlined check" id="checkCircle">check_circle</span>
                 </div>
             </div>
-            <div class="item">
+            <div class="item" onclick="toggleCheck(this)">
                 <img src="images/cb8c518c-b1d3-4474-b625-3cfae9e40818.png" alt="">
                 <div class="det">
                     <span>Dashboards</span>
@@ -39,10 +39,10 @@
                     </div>
                 </div>
                 <div class="rad">
-                    <span class="material-symbols-outlined">check_circle</span>
+                    <span class="material-symbols-outlined check" id="checkCircle">check_circle</span>
                 </div>
             </div>
-            <div class="item">
+            <div class="item" onclick="toggleCheck(this)">
                 <img src="images/f4adf6d8-415f-4adf-a058-ded87c0b9952.png" alt="">
                 <div class="det">
                     <span>Dashboards</span>
@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div class="rad">
-                    <span class="material-symbols-outlined">check_circle</span>
+                    <span class="material-symbols-outlined check" id="checkCircle">check_circle</span>
                 </div>
             </div>
         </div>
@@ -62,5 +62,12 @@
             <div><button>Save</button></div>
         </div>
     </div>
+
+    <script>
+        function toggleCheck(element) {
+            var checkCircle = element.querySelector('.check');
+            checkCircle.classList.toggle('checked');
+        }
+    </script>
 </body>
 </html>
