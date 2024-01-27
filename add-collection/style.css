@@ -26,7 +26,7 @@ img{
 }
 
 .header{
-    padding: 20px 40px;
+    margin: 40px 40px 20px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,8 +50,14 @@ img{
     justify-content: center;
 }
 
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .item{
-    padding: 10px 40px;
+    margin: 10px 40px;
     display: flex;
     gap: 20px;
     align-items: center;
@@ -88,7 +94,7 @@ img{
 
 .footer{
     margin-bottom: 60px;
-    padding: 20px 40px;
+    margin: 20px 40px 60px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
