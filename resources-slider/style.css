@@ -30,7 +30,7 @@ body{
     gap: 20px;
 }
 
-.search{
+.search, .settings{
     padding: 20px 0px 20px 20px;
     width: 360px;
     background-color: #fff;
@@ -39,7 +39,7 @@ body{
     gap: 20px;
 }
 
-.search > span:first-child{
+.search > span:first-child, .settings > span:first-child{
     background-color: #F4F7FF;
     flex: 1;
     height: 90px;
@@ -50,21 +50,15 @@ body{
     border-radius: 8px;
 }
 
-.search > div{
+.search > div, .settings > div{
     flex: 3;
 }
 
-.search > div > h4{
+.search > div > h4, .settings > div > h4{
     margin: 0px 0px 6px 0px;
 }
 
-.search > div > p{
+.search > div > p, .settings > div > p{
     margin: 0px;
     font-size: 15px;
-}
-
-.settings{
-    width: 360px;
-    background-color: #fff;
-    display: flex;
 }
