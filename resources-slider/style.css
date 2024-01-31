@@ -31,11 +31,40 @@ body{
 }
 
 .search{
+    padding: 20px 0px 20px 20px;
     width: 360px;
     background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search > span:first-child{
+    background-color: #F4F7FF;
+    flex: 1;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 8px;
+}
+
+.search > div{
+    flex: 3;
+}
+
+.search > div > h4{
+    margin: 0px 0px 6px 0px;
+}
+
+.search > div > p{
+    margin: 0px;
+    font-size: 15px;
 }
 
 .settings{
     width: 360px;
     background-color: #fff;
+    display: flex;
 }
