@@ -10,6 +10,7 @@ body{
 
 .container{
     margin-top: 40px;
+    margin-bottom: 40px;
     display: grid;
     grid-template-areas: "cont loc"
                          "cont profile";
@@ -141,4 +142,17 @@ body{
 .profile > div > div > p{
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1030px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile{
+        right: 0px;
+    }
 }
