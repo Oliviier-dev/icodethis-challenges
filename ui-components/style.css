@@ -8,14 +8,13 @@ body{
 }
 
 .container{
-    /* margin-top: 100px; */
-    /* min-height: 100vh; */
+    margin-top: 40px;
     display: grid;
     grid-template-areas: "cont loc"
                          "cont profile";
     justify-content: center;
     align-items: flex-start;
-    gap: 50px 30px;
+    gap: 50px 180px;
 }
 
 .main{
@@ -65,6 +64,7 @@ body{
 .location{
     grid-area: loc;
     background-color: red;
+    border-radius: 12px;
     width: 380px;
     height: 300px;
     padding: 40px;
@@ -73,6 +73,18 @@ body{
 .location > .header{
     display: flex;
     align-items: center;justify-content: space-between;
+}
+
+.location > .header > .close{
+    background-color: #ddd;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
 }
 
 .location > .locs{
@@ -91,7 +103,38 @@ body{
 }
 
 .profile{
+    position: relative;
+    right: 80px;
+    padding: 20px;
     grid-area: profile;
     background-color: red;
-    height: 200px;
+    border-radius: 12px;
+    /* height: 200px; */
+    display: flex;
+    gap: 20px;
+}
+
+.profile > img{
+    width: 140px;
+    height: 140px;
+}
+
+.profile > div > h4{
+    margin-bottom: 4px;
+}
+
+.profile > div > .email{
+    margin-top: 14px;
+}
+
+.profile > div > .email, .profile > div > .phone{
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.profile > div > div > p{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
