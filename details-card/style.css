@@ -55,3 +55,24 @@ body{
 .header > span:nth-child(2){
     cursor: pointer;
 }
+
+.desc > p{
+    font-size: 18px;
+    width: clamp(0px, 100%, 260px);
+}
+
+.stats {
+    display: flex;
+    gap: 40px;
+}
+
+.members, .online{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.members > span:first-child, .online > span:first-child{
+    font-weight: bold;
+    font-size: 22px;
+}
