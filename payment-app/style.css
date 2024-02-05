@@ -83,3 +83,39 @@ body{
     justify-content: center;
     margin-bottom: 10px;
 }
+
+.desc{
+    margin-top: 20px;
+    width: 300px;
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.footer{
+    color: #EE4A56;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer > span{
+    font-size: 30px;
+}
+
+.footer > .arrow{
+    border: 1px solid #878686;
+    padding: 0px 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: ease all 0.5s;
+}
+
+.footer > .arrow:hover{
+    color: #fff;
+    background-color: #EE4A56;
+    border: 1px solid #EE4A56;
+}
