@@ -49,3 +49,37 @@ body{
     bottom: 8px;
     border-radius: 50%;
 }
+
+.frequent{
+    margin-top: 20px;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 14px;
+}
+
+.frequent > div:first-child{
+    display: flex;
+    justify-content: space-between;
+}
+
+.frequent > div:first-child > span:first-child{
+    font-weight: bold;
+}
+
+.prof{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 6px solid #EE4A56;
+    border-radius: 50%;
+}
+
+.profiles{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
