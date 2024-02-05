@@ -119,3 +119,40 @@ body{
     background-color: #EE4A56;
     border: 1px solid #EE4A56;
 }
+
+.wrapper{
+    margin-top: 20px;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+}
+
+.item1{
+    width: 120px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid #878686;
+    border-radius: 8px;
+    padding-top: 6px;
+}
+
+.btn{
+    padding: 6px 16px;
+    margin-bottom: 10px;
+    width: 90%;
+    color: #fff;
+    cursor: pointer;
+    background-color: #EE4A56;
+    border-radius: 20px;
+    border: none;
+    transition: ease all 0.5s;
+}
