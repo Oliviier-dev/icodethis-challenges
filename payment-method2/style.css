@@ -1,0 +1,89 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #DFE0F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    line-height: 1.2;
+}
+
+.container{
+    /* display: flex; */
+    background-color: #fff;
+    width: 400px;
+    height: 440px;
+    padding: 0px 20px; 
+}
+
+.form > div:first-child{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.right > h4{
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
+.card{
+    margin-top: 20px;
+    width: 270px;
+    padding: 12px 15px;
+}
+
+.flexform{
+    display: flex;
+    max-width: 260px;
+    margin-bottom: 10px;
+}
+
+.flexform > input{
+    max-width: 130px;
+    padding: 12px 9px;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.form > div:nth-child(2){
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.rightt{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.rightt > h4{
+    margin: 0px;
+}
+
+.btn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+button{
+    width: 70%;
+    padding: 20px;
+    border: none;
+    color: #fff;
+    background-color: #2A327C;
+    font-size: 16px;
+    cursor: pointer;
+}
