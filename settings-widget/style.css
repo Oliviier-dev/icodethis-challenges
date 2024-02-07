@@ -34,6 +34,8 @@ body{
     gap: 30px;
 }
 .settings{
+    position: relative;
+    top: 60px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -41,8 +43,10 @@ body{
 }
 
 .settings > span:first-child{
+    box-shadow: 0 24.8832px 20.736px hsla(224, 44%, 10%, .1);
     background-color: #fff;
     width: 30px;
+    border-radius: 4px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -52,6 +56,8 @@ body{
 }
 
 .settings > div{
+    box-shadow: 0 24.8832px 20.736px hsla(224, 44%, 10%, .1);
+    border-radius: 6px;
     width: 160px;
     margin: auto;
     background-color: #fff;
@@ -74,6 +80,10 @@ body{
 }
 
 .customize{
+    box-shadow: 0 24.8832px 20.736px hsla(224, 44%, 10%, .1);
+    border-radius: 6px;
+    position: relative;
+    bottom: 20px;
     width: 340px;
     height: 300px;
     padding: 30px 0px 0px 30px;
@@ -122,10 +132,15 @@ body{
 }
 
 .other{
+    box-shadow: 0 24.8832px 20.736px hsla(224, 44%, 10%, .1);
+    border-radius: 6px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 30px 0px 30px 20px;
+    position: relative;
+    top: 10px;
+    left: 40px;
 }
 
 .other > div{
