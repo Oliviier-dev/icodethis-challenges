@@ -94,6 +94,7 @@ body{
 
 .customize > div > div > span:first-child{
     color:#AFAFAF;
+    cursor: pointer;
 }
 
 .customize > div > div:nth-child(2) > span:first-child{
@@ -112,9 +113,37 @@ body{
 .btns > button:nth-child(2){
     background-color: #F0AE2E;
     color: #4D1E08;
+    margin-left: 10px;
 }
 
 .btns > button:first-child{
     background-color: #F6F4F0;
     color: #383733; 
+}
+
+.other{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0px 30px 20px;
+}
+
+.other > div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.other > div > div{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.other > div > div > span:first-child{
+    cursor: pointer;
+}
+
+.other > div > div:nth-child(2) > span:first-child{
+    color: #4D1E08;
 }
