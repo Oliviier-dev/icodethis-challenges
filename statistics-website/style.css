@@ -75,3 +75,32 @@ body{
 .itembottom > h3{
     margin: 0px;
 }
+
+@media screen and (max-width: 1030px){
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 20px;
+    }
+}
+
+@media screen and (max-width: 740px){
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px 20px;
+    }
+
+    .container > div > input{
+        width: 280px;
+    }
+
+    .itembottom > h3{
+        margin-top: 0px;
+    }
+
+    .itembottom{
+        padding-top: 0px;
+        padding-bottom: 16px;
+    }
+}
