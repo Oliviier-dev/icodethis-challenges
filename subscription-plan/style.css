@@ -53,11 +53,37 @@ body{
     justify-content: center;
     margin-top: 30px;
     gap: 4px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .price > span:nth-child(2){
     font-size: 26px;
     padding-left: 4px;
     font-weight: bolder;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.buttons > span{
+    border-radius: 12px;
+    padding: 6px 12px;
+    border: 1px solid #C2C1D5;
+    cursor: pointer;
+}
+
+.buttons > .selected{
+    background-color: #18215D;
+    color: #fff;
 }
