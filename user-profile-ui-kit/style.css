@@ -11,3 +11,48 @@ body{
     box-sizing: border-box;
     line-height: 1.2;
 }
+
+.container{
+    display: flex;
+    gap: 40px;
+}
+
+.left{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.leftop{
+    min-width: 260px;
+    min-height: 280px;
+}
+
+.leftbottom{
+    position: absolute;
+    min-width: 340px;
+    top: 320px;
+    right: 80px;
+}
+
+.right{
+    position: relative;
+    max-width: 230px;
+    top: 60px;
+}
+
+.leftop, .leftbottom, .right{
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+.leftbottom > div > img{
+    width: 60px;
+    height: 60px;
+}
+
+.right > img{
+    width: 110px;
+    height: 110px; 
+}
