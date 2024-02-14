@@ -108,3 +108,32 @@ body{
     font-size: 30px;
     font-weight: bold;
 }
+
+.leftbottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 6px 0px;
+}
+
+.leftbottom > div:first-child{
+    display: flex;
+    gap: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.leftbottom > div:nth-child(2) > img{
+    border-radius: 50%;
+    position: relative;
+    border: 6px solid #fff;
+}
+
+.leftbottom > div:nth-child(2) > img:nth-child(1){
+    left: 30px;
+}
+
+.leftbottom > div:nth-child(2) > img:nth-child(3){
+    right: 30px;
+}
