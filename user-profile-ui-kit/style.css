@@ -38,7 +38,7 @@ body{
 
 .right{
     position: relative;
-    max-width: 230px;
+    max-width: 300px;
     top: 60px;
 }
 
@@ -136,4 +136,27 @@ body{
 
 .leftbottom > div:nth-child(2) > img:nth-child(3){
     right: 30px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 30px;
+}
+
+.right > img{
+    border-radius: 50%;
+    border: 8px solid #E3EEFA;
+}
+
+.right > span:nth-child(2){
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.right > span:nth-child(4){
+    display: flex;
+    gap: 18px;
 }
